@@ -7,7 +7,7 @@ const vshadowizard = (options) => {
         optiotns.shadow_type = '15px'
     
     images.forEach(images => {
-        images.style.boxShadow = `10px 10px ${options.shadow_type} 1px rgba(0,0,0,0.12)`;
+        images.style.boxShadow = `10px 10px ${options.shadow_type} 1px`;
 
         if(options.padding) {
             images.style.padding = '1em'
